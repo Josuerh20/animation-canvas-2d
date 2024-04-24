@@ -65,7 +65,7 @@ let arrayCircle=[];
 for(let i=0; i<10; i++){
     let randomX = Math.random() * window_width;//pocision en x
     let randomY = Math.random() * window_height;//posicion en y
-    let randomRadius = Math.floor(Math.random() * 100 + 15);//Tamaño
+    let randomRadius = Math.floor(Math.random() * 100 + 25);//Tamaño
     let randomColor = '#' + Math.floor(Math.random()*16777215).toString(16); //Color aleatorio
 
     let miCirculo=new Circle(randomX, randomY, randomRadius, randomColor, 'tec'+(i+1), 2);
